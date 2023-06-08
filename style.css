@@ -1,0 +1,240 @@
+/*
+    Style για τα γενικά μέρη της σελίδας
+*/
+
+*{
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(153, 0, 255);
+    width: 90%;
+    margin: auto;
+}
+h1 {
+    font-size: 55px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+h2{
+    font-size: 35px ;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    font-size: 31px ;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: rgb(255, 187, 0);
+    font-weight: bold;
+}
+
+footer{
+    background-color: rgb(0 ,225, 225);
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    font-size: 20px ;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+
+footer ul{
+    list-style: none;
+}
+
+/*
+    Style για συγκεκριμένα classes
+*/
+
+.Χαιρετισμός{
+    font-size: 20px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+iframe{
+    border: #000000 5px dashed;
+}
+
+.υλικά{
+    font-size: 20px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.εκτέλεση{
+    font-size: 20px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.έξτρα{
+    font-size: 20px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Επικοινωνία{
+    font-size: 20px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Links ul li{
+    font-size: 17px;
+    list-style:lower-roman;
+}
+
+.Links ul li a{
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.Πινακάκι table{
+    border: #000000 7px solid;
+}
+
+.Πινακάκι table th{
+    border: #000000 6px solid;
+}
+
+.Πινακάκι table td{
+    border: #000000 4px solid;
+    margin: 5px;
+}
+
+.μήνυμα label{
+    font-weight: bold;
+    position: relative;
+    margin: 10px;
+    padding: 10px;
+}
+
+/*
+Ο λόγος που τοποθετήθηκε η γραπτή αξιολόγηση κάτω από το footer είναι επιεδή γίνεται να μην συμπληρωθεί
+*/
+
+.μήνυμα label textarea{
+    display:flex;
+    position:relative;
+}
+
+.submit{
+    font-size: larger;
+}
+
+/*
+    Style για εικόνες της σελίδας
+*/
+
+.εικόνα{
+    position:absolute;
+    top: 17em;
+    right: 2em;
+    border: #000000 5px;
+    border-style: dotted ;
+    margin: 5px;
+}
+.εικόνα1{
+    position: absolute;
+    top: 23em;
+    right: 5em;
+    border: #000000 5px;
+    border-style:inset ;
+    margin: 5px;
+}
+
+.εικόνα2{
+    position:absolute;
+    top: 15em;
+    right: 5em;
+    border: #000000 5px;
+    border-style: dotted ;
+    margin: 5px;
+}
+
+.εικόνα3{
+    position: absolute;
+    top: 25em;
+    right: 5em;
+    border: #000000 5px;
+    border-style: dotted ;
+    margin: 5px;
+}
+
+.foodpic img{
+    border: #000000 5px dotted;
+}
+
+/*
+    Δεν πειράξαμε τις εικόνες των σεφ με css γιατί μας φάνηκαν όμορφα τοποθετημένες και ότι δεν χρειάζονταν κάποια διόρθωση
+*/
+
+/*
+    Style για το dropdown menu
+*/
+
+.menu-bar {
+    background-color: #000000;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border-radius:0px 0px 5px 5px;
+    display: flex;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: orange;
+}
+.menu-bar ul li{
+    margin: 15px;
+    padding: 15px;
+    position: relative;
+}
+
+.menu-bar ul li a{
+    text-decoration: none;
+    color: orange;
+    font-size: 15px ;
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+}
+.active, .menu-bar ul li:hover{
+    background-color: rgb(0, 225, 225);
+    border-radius: 5px;
+}
+.side-menu-bar1{
+    display: none;
+}
+.menu-bar ul li:hover .side-menu-bar1{
+    display:block;
+    position:absolute;
+    background-color: rgb(0, 0, 0);
+    margin-top: 5px ;
+    margin-left: 0px;
+    top: 3em;
+    border-radius: 5px ;
+}
+
+.menu-bar ul li:hover .side-menu-bar1 ul{
+    display: block ;
+    margin: 0px;
+}
+.menu-bar ul li:hover .side-menu-bar1 ul li{
+border-top: 2px rgb(153, 0, 255) solid;
+}
+
+.menu-bar ul li:hover .side-menu-bar1 ul li a{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: inline;
+    margin: 0px;
+}
+
+
